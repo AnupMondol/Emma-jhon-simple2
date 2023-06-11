@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
+.image-container{
+    width: 250px;
+}
+.image-container img{
+    height: 200px;
+    width: 230px;
+    margin-left: 30px;
+}
+.product-detail{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+b {
+    color: red;
+}
+.add-button{
+    height: 30px;
+    width: 180px;
+    background-color: orange;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.add-button:hover{
+    background-color: rgb(228, 166, 8);
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+.product-name{
+    color: rgb(53, 160, 196);
+}
